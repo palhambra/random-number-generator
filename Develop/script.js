@@ -7,7 +7,7 @@ function generatePassword(){
   
   length = prompt("How many characters would you like in your password?")
 
-  if (length > 7 && length < 129) {
+  if(length > 7 && length < 129) {
     // if length input is between 8-128, the next prompt/confirms will appear. Using "confirm", the input will output a boolean
     addUpper = confirm("Would you like uppercase letters?")
     if(addUpper){
@@ -25,7 +25,7 @@ function generatePassword(){
     if(addSymbol){
       possibleChars.push("`", "~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+", "{", "}", "[", "]", "|", "/", " ' ", " \ ", ";", ":",  "?", ".", ">", ",", "<")
     }
-  
+    
     for(var i = 0; i <length; i++){
       pw += possibleChars[Math.floor(Math.random() * possibleChars.length)];
     
