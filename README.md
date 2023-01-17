@@ -7,4 +7,4 @@ In this project we have been given a starter code to a random password generator
 ![This will resemble the mock-up located in the challenge README.md.](assets/Screenshot%202023-01-16%20214520.png)
 
 
-https://palhambra.github.io/random-number-generator/
+https://palhambra.github.io/youll-never-guess/
